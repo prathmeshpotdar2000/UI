@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+	<title>function/block level scope test</title>
+	<script type='text/javascript'>
+		function show()
+		{
+			let a = prompt("Enter first value",10);
+			let b = prompt("Enter second value",10);
+			let cal = a*b;
+			alert(cal);	
+		}
+		
+	</script>
+	<style>
+		input
+		{
+			width:400px;
+			height:50px;
+			background-color:black;
+			color:white;
+			margin-left:480px;
+			margin-top:200px;
+		}
+	</style>
+</head>
+	<body>
+	<input type="button" name="s" value="Call Message" onclick="show()">
+	</body>
+</html>

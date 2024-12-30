@@ -1,0 +1,28 @@
+ul{
+  width:100%;
+  height:40px;
+  background-color:black;
+  padding-top:10px;
+}
+ul li{
+  display:inline;
+   
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:10px;
+}
+.herobanner{
+  width:100%;
+  height:70vh;
+  background-image: url("./assets/temp1.jpeg");
+  background-size: 100% 70vh;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  width:100%;
+  height:70vh;
+  background-color: red;
+}

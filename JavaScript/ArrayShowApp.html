@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        function show() 
+        {
+            // var FirstBox = document.getElementById("f");
+            // var FirstVal = FirstBox.value;
+            // var SecondBox = document.getElementById("s");
+            // var SecondVal = SecondBox.value;
+            // var ThirdBox = document.getElementById("t");
+            // var result = parseInt(FirstVal)+parseInt(SecondVal);
+            // ThirdBox.value = result;
+
+            var FirstBox = document.getElementById("f").value;
+            var SecondBox = document.getElementById("s").value;
+            var ThirdBox = document.getElementById("t");
+            var result = parseInt(FirstBox) +parseInt(SecondBox);
+            ThirdBox.value = result;
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="first" id="f" value="10" > <br><br>
+    <input type="text" name="second" id="s" value="10"> <br><br>
+    <input type="text" name="third" id="t" value=""> <br><br>
+    <input type="submit" value="Calculate Addition" name="s" id="btn" onclick="show()">
+</body>
+</html>
